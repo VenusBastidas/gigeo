@@ -1,0 +1,49 @@
+.navbar-brand {
+  font-family: "LEMON MILK", sans-serif;
+  font-size: 2rem !important;
+}
+.banner {
+  max-height: 30vh;
+  min-height: 30vh;
+  background-image: url(../images/image-banner.png);
+  background-size: cover;
+  background-position: center;
+}
+.imgPerfil {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-image: url(../images/profile-image.png);
+  background-size: cover;
+  background-position: center;
+}
+sup {
+  font-size: 0.5rem !important;
+  position: relative !important;
+  top: -2.5em !important;
+  left: -1em !important;
+}
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  column-gap: 2rem;
+  row-gap: 2rem;
+  margin: 0 1rem;
+}
+
+@media(max-width: 780px) {
+  main {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media(max-width: 320px) {
+    main {
+      grid-template-columns: 1fr;
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+  }
+
+.card-img-top{
+    max-width: 100% !important;
+}
